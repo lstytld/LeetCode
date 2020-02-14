@@ -10,4 +10,3 @@ class Solution:
         for i in range(1, len(nums)):
             prev1, prev2, cur = prev2, cur, max(cur, prev2 + nums[i])
         return cur
-    
