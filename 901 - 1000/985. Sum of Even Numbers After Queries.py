@@ -16,5 +16,4 @@ class Solution:
                     start += A[index] + value
             A[index] += value
             ans.append(start)
-
         return ans
