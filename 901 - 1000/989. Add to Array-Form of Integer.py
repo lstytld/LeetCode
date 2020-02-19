@@ -3,6 +3,7 @@ class Solution:
         ans = []
         flag = 0
         i = 1
+        
         while (i <= len(A) or K > 0) or flag == 1:
             A_num = A[-i] if i <= len(A) else 0
             K_num = K % 10
